@@ -1,0 +1,149 @@
+ig
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website for Berk, a frontend developer from Ukraine with skills in HTML5, CSS3, JavaScript, and React.">
+    <title>WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav class="container" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="home">
+        <div id="welcome">
+            <div id="image">
+                <img src="berk.png" alt="Portrait of Berk">
+            </div>
+            <div class="text-content">
+                <h1>Hi! I'm <span>Berk Povelytsia</span></h1>
+                <p>Frontend developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!---About me--->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abt-col1">
+                    <img src="sigma.jpg" alt="Sigma logo">
+                </div>
+                <div class="abt-col2">
+                    <h1>About Me</h1>
+                    <p>Hi, my name is Berk. I'm 20 years old and was born in Ukraine. I was raised in the town of Kherson. <br>In 7th grade, I moved with my family to Istanbul and started going to school there. <br>However, because I didn't really like it,
+                        we decided to return, and then I finished my schooling at School №50.</p>
+
+                    <p>After that, I wanted to go to university and found one in Kiev.<br> I passed the exams and moved to Kiev to start my student life. <br>But it was 2021, and because of the coronavirus, we had to study online, which is the same as nowadays.
+                        <br> After the Russian invasion, we left Ukraine for Germany and started learning the language.</p>
+
+                    <p>At this time, I know a few different languages: Ukrainian, Russian, English, Turkish, and German, <br>all of which I have at least a B2 level of knowledge. <br>I have a little bit of interest in sports and traveling, and I'm also interested
+                        in the world economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Skills--->
+    <div id="skills">
+        <div class="experience">
+            <h1>My <span>Skills</span></h1>
+        </div>
+
+        <div class="skills-container">
+            <section class="skills">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="html.png" alt="HTML5 logo">
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="css.png" alt="CSS3 logo">
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="js.png" alt="JavaScript logo">
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="python.png" alt="Python logo">
+                        </div>
+                        <h3>Python</h3>
+                        <p>Basics</p>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="react.png" alt="React logo">
+                        </div>
+                        <h3>React</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!---Contact me-->
+    <footer id="contact" class="contact-info">
+        <div class="contact-box">
+            <h1>Contact me</h1>
+            <p>Hello! If you would like to get in touch with me, whether you have questions, potential job opportunities,<br> or would like to discuss my portfolio, please feel free to send me a message.<br> I am always open to connecting with new people
+                and exploring exciting opportunities.<br> Your interest is greatly appreciated, and I look forward to hearing from you soon. <br>Thank you!
+            </p>
+        </div>
+
+        <div class="contact-form">
+            <form action="your-backend-endpoint" method="POST">
+                <h2>Send Message</h2>
+                <div class="inputBox" id="name">
+                    <input type="text" name="full-name" required="required" title="full-name">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox" id="email">
+                    <input type="email" name="email" required="required" title="email">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox" id="message">
+                    <textarea name="message" required="required" title="message"></textarea>
+                    <span>Type your message</span>
+                </div>
+                <div class="button">
+                    <button type="submit" title="Send">Send</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>
